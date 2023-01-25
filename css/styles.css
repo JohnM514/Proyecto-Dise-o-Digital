@@ -1,0 +1,146 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+p {
+    color: #7C7C7C;
+    font-size: 1.5rem;
+}
+
+li {
+    color: #7C7C7C;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 1.5% 5%;
+}
+
+.colored-section {
+    background-color: #E9EEE8;
+}
+
+.white-section {
+    background-color: #FFF;
+}
+
+.big-heading {
+    color: #1595A2;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.section-heading {
+    color: #1595A2;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/*Navigation Bar*/
+#nav-bar-icon {
+    height: 50px;
+    width: 50x;
+}
+
+.navbar-brand {
+    font-family: 'Nerko One', cursive;
+    font-size: 2.25rem;
+    color: #1595A2;
+}
+
+.navbar-brand:hover {
+    color: #1595A2;
+}
+
+.nav-link {
+    color: #7C7C7C;
+    font-size: 1.30rem;
+}
+
+/*Title Section*/
+
+#title-img {
+    position: relative;
+    width: 30%;
+}
+
+/*Location Section*/
+#location-img {
+    position: relative;
+    left: 20%;
+    width: 30%;
+}
+
+#features-img {
+    position: relative;
+    width: 40%;
+    bottom: 20%;
+}
+
+#services-title-img {
+    position: relative;
+    padding: 3%;
+}
+
+.servicios-img {
+    width: 130px;
+}
+
+.social-media {
+    margin: 20px 10px;
+}
+
+.services-title {
+    font-size: 1.5rem;
+    color: #1595A2;
+    padding: 3%;
+}
+
+#title-casos-exitos {
+    background-image: url('../images/fondoCasosExitos.png');
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+    background-position: center;
+    height: 500px;
+}
+
+
+.testimonial-img {
+    object-fit:scale-down;
+    width: 80%;
+    height: 80%;
+
+}
+
+.conocenos-img {
+    object-fit:scale-down;
+    width: 80%;
+    height: 80%;
+
+}
+
+.card-img {
+    position: relative;
+    object-fit: scale-down;
+}
+
+
+.testimonial-img-div {
+    position: relative;
+}
+
+.miembros-img {
+    object-fit: scale-down;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+
+}
+
+@media (max-width:688px) {
+    #location-img {
+        left: 0%;
+    }
+    
+}
